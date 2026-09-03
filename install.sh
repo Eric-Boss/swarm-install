@@ -98,12 +98,12 @@ for arg in "$@"; do
     --uninstall) UNINSTALL=1 ;;
     -h|--help)
       cat <<'EOF'
-install.sh — install swarm to ~/.swarm/
+install.sh — install swarm to ~/.swarm/ and the /swarm skill into agent dirs
 
   curl -fsSL https://raw.githubusercontent.com/Eric-Boss/swarm-install/main/install.sh | bash
   ./install.sh              install (upgrade in place on re-run)
   ./install.sh --yes        allow rc edits when stdin is not a tty
-  ./install.sh --uninstall  remove ~/.swarm + PATH lines from shell rc
+  ./install.sh --uninstall  remove ~/.swarm + PATH lines + agent skills
   ./install.sh --version    print version
 
 Env: SWARM_YES=1  SWARM_INSTALL_DIR=  SWARM_INTERACTIVE=0
