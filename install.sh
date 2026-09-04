@@ -108,6 +108,9 @@ install.sh — install swarm to ~/.swarm/ and the /swarm skill into agent dirs
 
 Env: SWARM_YES=1  SWARM_INSTALL_DIR=  SWARM_INTERACTIVE=0
      SWARM_DIST_BASE=  SWARM_DIST_TARBALL=
+     CODEX_HOME=  locate legacy Codex skill for migration (default ~/.codex)
+
+Codex: select swarm with /skills or invoke $swarm <mission>.
 EOF
       exit 0
       ;;

@@ -10,6 +10,8 @@ swarm doctor
 
 That installs the `swarm` CLI to `~/.swarm/` **and** the `/swarm` director
 skill into Claude, Cursor, Grok, Codex, OpenCode, Pi, and `~/.agents/skills`.
-Restart the coding agent after install or it will not see `/swarm`.
+In Codex, invoke `$swarm` or select swarm from `/skills`.
+Codex gets one shared skill copy at `~/.agents/skills/swarm`.
+Restart the coding agent after install to refresh its skill list.
 
-Current release: swarm 0.2.4 (`v0.2.4`).
+Current release: swarm 0.2.5 (`v0.2.5`).
