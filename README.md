@@ -14,4 +14,4 @@ In Codex, invoke `$swarm` or select swarm from `/skills`.
 Codex gets one shared skill copy at `~/.agents/skills/swarm`.
 Restart the coding agent after install to refresh its skill list.
 
-Current release: swarm 0.2.5 (`v0.2.5`).
+Current release: swarm 0.2.6 (`v0.2.6`).
